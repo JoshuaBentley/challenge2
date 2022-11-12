@@ -1,0 +1,111 @@
+/* backgorund image for page */ 
+body {
+    background-image: url(img/background1.png);
+    background-size: cover;
+}
+/* h1 settings */
+header h1 {
+    height: 110px;
+    color: lightblue;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/* header settings */
+header details {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: lightblue;
+    display: flex;
+    justify-content:right;
+    padding-bottom: .5%;
+}
+/* list settings */
+li {
+    list-style: none
+}
+/* direction link settings */
+a {
+    color: lightblue;
+}
+/*direction link settings */
+a:hover {
+    cursor: grabbing;
+    color: rgb(202, 33, 33);
+}
+/*  trying to get my elements to display as a grid  */
+.position {
+    display: grid;
+    grid-column: 20%;
+}
+/* about h2 settings */
+.about h2 {
+    font-style: bolder;
+    font-size: 50px;
+}
+/* about settings */
+.about {
+    font-style:italic;
+    margin-top: 200px;
+    width: 50%;
+    border: 5px solid black;
+    font-size: 20px;
+    background-color: rgba(10, 10, 118, 0.879);
+    color: rgba(12, 3, 3, 0.979);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+/* work settings */
+.work {
+    color: lightgreen;
+    background-image: url(img/gitlogo.png);
+    background-color: rgba(10, 10, 118, 0.879);
+    width: 45%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid black;
+    margin-top: 1.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* link settings */
+.work a {
+    color: lightgreen;
+}
+/* link hover settings */
+.work a:hover {
+    color: red;
+}
+/* header settings */
+.work h2 {
+    font-size: 50px;
+    font-style: bolder;
+}
+/* h2  settings */
+.contact h2 {
+    font-size: 50px;
+    font-style: bolder;
+}
+/* paragraph settings */
+.contact {
+    border: 5px solid black;
+    background-color: rgba(10, 10, 118, 0.879);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    width: 50%;
+    margin-top: 1.5%;
+}
+/* phone settings */
+#phone {
+    color: rgb(0, 174, 255);
+}
+/*emal display settings */
+#email {
+    color: blue;
+    text-underline-position: below;
+}
+/* email display when hovering settings */
+#email:hover {
+    text-decoration-line: underline 2px red;
+    color: red;
+}+
