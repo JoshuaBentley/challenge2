@@ -1,6 +1,6 @@
 /* backgorund image for page */ 
 body {
-    background-image: url(/challenge2/img/background1.png);
+    background-image: url(/background1.png);
     background-size: cover;
 }
 /* h1 settings */
@@ -20,7 +20,6 @@ header nav {
 }
 
 header li {
-
     width: max-content;
 }
 
@@ -46,6 +45,33 @@ a:hover {
     justify-content: space-around;
 }
 
+#section1 {
+    margin-top: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#section2 {
+    margin-top: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#section3 {
+    margin-top: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#about {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#about h2 {
+    margin-right: 20%;
+}
+
 /* about h2 settings */
 .about h2 {
     font-style: bolder;
@@ -53,7 +79,7 @@ a:hover {
 }
 /* about settings */
 .about {
-    background-image: url(/challenge2/img/paper.png);
+    background-image: url(/paper.png);
     background-size: cover;
     font-style:italic;
     margin-top: 200px;
@@ -68,8 +94,8 @@ a:hover {
 
 .work {
     color: rgb(11, 110, 11);
-    background-image: url(/challenge2/img/gitlogo.png);
-    background-color: rgba(10, 10, 118, 0.879);
+    background-image: url(/gitlogo.png);
+    background-color: rgba(10, 10, 118, 0.842);
     width: 45%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 5px solid black;
@@ -97,7 +123,7 @@ a:hover {
 /* paragraph settings */
 .contact {
     border: 5px solid black;
-    background-color: rgba(10, 10, 118, 0.879);
+    background-color: rgba(10, 10, 118, 0.411);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px; 
     width: 50%;
@@ -122,4 +148,174 @@ a:hover {
     text-decoration-line: underline 2px red;
     color: red;
     cursor: grab;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    color: aquamarine;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bolder;
+}
+
+@media screen and (max-width: 992px) {
+
+    /* h1 settings */
+    header h1 {
+        height: 80px;
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        font-weight: bolder;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    /* header settings */
+    header nav {
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+    }
+    
+    header li {
+        width: max-content;
+    }
+    
+    /* list settings */
+    li {
+        gap: 50px;
+        list-style: none;
+        margin: 1%;
+    }
+    /* direction link settings */
+    a {
+        color: rgb(255, 255, 255);
+    }
+    /*direction link settings */
+    a:hover {
+        cursor: grabbing;
+        color: rgb(202, 33, 33);
+    }
+    /*  trying to get my elements to display as a grid  */
+    
+    .position {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #section1 {
+        margin-top: 20%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #section2 {
+        margin-top: 20%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #section3 {
+        margin-top: 20%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #about {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    #about h2 {
+        margin-right: 20%;
+    }
+    
+    /* about h2 settings */
+    .about h2 {
+        font-style: bolder;
+        font-size: 25px;
+    }
+    /* about settings */
+    .about {
+        background-image: url(/paper.png);
+        background-size: cover;
+        font-style:italic;
+        margin-top: 100px;
+        width: 50%;
+        border: 5px solid black;
+        font-size: 20px;
+        background-color: rgba(118, 10, 46, 0.842);
+        color: rgba(12, 3, 3, 0.979);
+        font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    /* work settings */
+    
+    .work {
+        color: rgb(11, 110, 11);
+        background-image: url(/gitlogo.png);
+        background-color: rgba(118, 10, 46, 0.842);
+        width: 45%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: 3px solid black;
+        margin-top: 1.5%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    /* link settings */
+    .work a {
+        color: green;
+    }
+    /* link hover settings */
+    .work a:hover {
+        color: red;
+    }
+    /* header settings */
+    .work h2 {
+        font-size: 25px;
+        font-style: bolder;
+    }
+    /* h2  settings */
+    .contact h2 {
+        font-size: 25px;
+        font-style: bolder;
+    }
+    /* paragraph settings */
+    .contact {
+        border: 3px solid black;
+        background-color: rgba(118, 10, 46, 0.842);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 10px; 
+        width: 50%;
+        margin-top: 1.5%;
+    }
+    /* phone settings */
+    #phone {
+        color: rgb(0, 255, 30);
+    }
+    
+    #phone:hover {
+        color: rgb(214, 90, 8);
+        cursor: grab;
+    }
+    /*emal display settings */
+    #email {
+        color: rgb(0, 255, 30);
+        text-underline-position: below;
+    }
+    /* email display when hovering settings */
+    #email:hover {
+        text-decoration-line: underline 2px rgb(0, 255, 34);
+        color: rgb(238, 0, 255);
+        cursor: grab;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 20%;
+        color: rgb(180, 127, 255);
+        font-size: x-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: bolder;
+    }
 }
