@@ -234,7 +234,7 @@ footer {
     }
     /* about settings */
     .about {
-        background-image: url(/paper.png);
+        background-image: url(paper.png);
         background-size: cover;
         font-style:italic;
         margin-top: 100px;
@@ -249,7 +249,7 @@ footer {
     
     .work {
         color: rgb(11, 110, 11);
-        background-image: url(/gitlogo.png);
+        background-image: url(gitlogo.png);
         background-color: rgba(118, 10, 46, 0.842);
         width: 45%;
         font-family: Georgia, 'Times New Roman', Times, serif;
