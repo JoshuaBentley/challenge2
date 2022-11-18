@@ -5,6 +5,8 @@ body {
 }
 /* h1 settings */
 header h1 {
+    display:flex;
+    justify-content: space-between;
     height: 110px;
     color: rgb(255, 255, 255);
     font-size: 60px;
@@ -13,14 +15,16 @@ header h1 {
     margin-bottom: 0;
     margin-top: 0;
 }
-/* header settings */
-header nav {
-    font-size: 20px;
-    color: rgb(255, 255, 255);
+
+header img {
+    border: 3px solid black;
+    border-radius: 60%;
 }
 
-header li {
-    width: max-content;
+/* header settings */
+header nav {
+    font-size: large;
+    color: rgb(255, 255, 255);
 }
 
 /* list settings */
@@ -128,19 +132,16 @@ a:hover {
     font-size: 20px; 
     width: 50%;
     margin-top: 1.5%;
+    color: whitesmoke;
 }
 /* phone settings */
-#phone {
-    color: rgb(0, 174, 255);
-}
-
 #phone:hover {
     color: green;
     cursor: grab;
 }
+
 /*emal display settings */
 #email {
-    color: blue;
     text-underline-position: below;
 }
 /* email display when hovering settings */
